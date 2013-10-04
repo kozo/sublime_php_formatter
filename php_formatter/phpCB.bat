@@ -15,5 +15,5 @@ phpCB.exe --space-after-if ^
 	--glue-arrow ^
 	--comment-rendering-style PEAR ^
 	"%1" > "%TEMP%\phpcb.php"
-move /Y "%TEMP%\phpcb.php" "%1"
+rem move /Y "%TEMP%\phpcb.php" "%1"
 rem PAUSE
